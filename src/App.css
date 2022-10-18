@@ -1,0 +1,195 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App */
+
+.divApp{
+  background: #4a4e89;
+}
+
+/* PrincipalPage */
+
+.divPrincipalPage input{
+ width: 20em;
+
+}.divPrincipalPage input:focus{
+  border: solid 4px yellow;
+}
+
+.divPrincipalPage button{
+  padding: 0.5em;
+  border-radius: 15%;
+  background: lightblue;
+  color: white;
+}
+
+.divPrincipalPage button:active{
+  border: solid 2px yellow;
+  color: yellow;
+}
+
+/* FormPage */
+
+.divForm{
+  display: grid;
+  /* grid-auto-columns: 80% ; */
+ margin: 0 auto;
+ margin-top: 2em;
+ padding: 1.5em;
+ padding-bottom: 4em;
+  border: solid 1px black;
+ width: 22em;
+ height: 16em;
+ border-radius: 30%;
+    background: #f4a261;
+
+}
+
+.divForm form{
+  
+  display: grid;
+    grid-auto-rows: 25%;
+    gap: 1em;
+}
+
+.divForm button{
+  border-radius: 60%;
+  width: 5em;
+  color: blue;
+  border: solid 2px #2a9d8f;
+  background:#2a9d8f;
+   margin: 0 auto;
+
+}
+
+.divForm button:active{
+  border: solid 3px yellow;
+}
+
+.divForm h3{
+  color: blue;
+}
+
+.divForm input{
+   border-radius: 60%;
+   text-align: center;
+  background: lightblue;
+  color: blue;
+}
+
+.divForm input:focus{
+  font-size: 150%;
+  border: solid 3px yellow;
+  text-align: center;
+
+}
+
+.divForm input::placeholder{
+    color: #264653;
+
+}
+
+
+.divMayor {
+background: #e9c46a;
+padding-top: 5%;
+padding-bottom: 30%;
+} 
+
+/* FirstPage */
+
+.divFirstPage{
+  background: lightblue;
+  padding-bottom: 4em;
+}
+
+.divFirstPage button{
+  background: #4a4e89;
+
+}
+
+.divFirstPage button:active{
+  border: solid 2px yellow;
+  color: yellow;
+}
+
+/* SecondPage */
+
+.divSecondPage{
+  background: lightblue;
+  margin: 4em;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.divSecondPage button{
+  background: #4a4e89;
+
+}
+
+.divSecondPage button:active{
+  border: solid 2px yellow;
+  color: yellow;
+}
+
+
+.divSecondPage input{
+  margin-top: 1em;
+ width: 20em;
+
+}.divSecondPage input:focus{
+  border: solid 4px yellow;
+}
+
+.divSecondPage button{
+  padding: 0.5em;
+  border-radius: 15%;
+  background: #4a4e89;
+  color: white;
+}
+
+.divSecondPage button:active{
+  border: solid 2px yellow;
+  color: yellow;
+}
+
+.divAbajo{
+  background: #4a4e89;
+padding-bottom: 10%;
+}
